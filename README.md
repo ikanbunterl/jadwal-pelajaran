@@ -46,7 +46,8 @@ Edit file `data.json` untuk menyesuaikan identitas kelasmu:
     }
   }
 }
-
+```
+---
 
 🕒 Update Log (Beta Version)
 [2.0.0-Beta] - 2026-02-27
