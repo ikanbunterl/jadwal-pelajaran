@@ -1,0 +1,37 @@
+{
+    "config": {
+        "group_id": "MASUKKAN_KODE_INVITE_GRUP_DISINI",
+        "bot_name": "Nama Bot Kelas Kamu"
+    },
+    "seragam": {
+        "Senin": "Seragam Hari Senin",
+        "Selasa": {
+            "minggu_seragam": "Seragam Minggu Genap",
+            "minggu_bebas": "Seragam Minggu Ganjil"
+        },
+        "Rabu": "Seragam Hari Rabu",
+        "Kamis": {
+            "minggu_seragam": "Seragam Minggu Genap",
+            "minggu_bebas": "Seragam Minggu Ganjil"
+        },
+        "Jumat": "Seragam Hari Jumat",
+        "Sabtu": "Seragam Hari Sabtu"
+    },
+    "jadwal": {
+        "Senin": ["Mapel 1", "Mapel 2"],
+        "Selasa": ["Mapel 1", "Mapel 2"],
+        "Rabu": ["Mapel 1", "Mapel 2"],
+        "Kamis": ["Mapel 1", "Mapel 2"],
+        "Jumat": ["Mapel 1", "Mapel 2"],
+        "Sabtu": ["Mapel 1", "Mapel 2"]
+    },
+    "piket": {
+        "Senin": ["Nama 1", "Nama 2"],
+        "Selasa": ["Nama 1", "Nama 2"],
+        "Rabu": ["Nama 1", "Nama 2"],
+        "Kamis": ["Nama 1", "Nama 2"],
+        "Jumat": ["Nama 1", "Nama 2"],
+        "Sabtu": ["Nama 1", "Nama 2"]
+    },
+    "tugas": []
+}
