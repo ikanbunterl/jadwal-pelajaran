@@ -1,37 +1,95 @@
 {
-    "config": {
-        "group_id": "MASUKKAN_KODE_INVITE_GRUP_DISINI",
-        "bot_name": "Nama Bot Kelas Kamu"
+  "config": {
+    "group_id": "JQhpAAr7VbP783synfnW7Z",
+    "group_name": "Grup Kelas",
+    "bot_name": "Bot Kelas Automation v3"
+  },
+  "app_settings": {
+    "auto_cleanup_expired_tasks": true,
+    "preview_before_send": true,
+    "backup_on_startup": true,
+    "schedule_check_interval_minutes": 60,
+    "whatsapp_launch_wait_seconds": 4,
+    "group_open_wait_seconds": 5,
+    "paste_wait_seconds": 0.5
+  },
+  "libur_nasional": [
+    "2026-03-29",
+    "2026-04-18",
+    "2026-05-01"
+  ],
+  "libur_sekolah": [
+    "2026-03-17",
+    "2026-06-15"
+  ],
+  "seragam": {
+    "Senin": "Putih Abu",
+    "Selasa": {
+      "minggu_seragam": "Batik Sekolah",
+      "minggu_bebas": "Batik Bebas & Bawahan Hitam"
     },
-    "seragam": {
-        "Senin": "Seragam Hari Senin",
-        "Selasa": {
-            "minggu_seragam": "Seragam Minggu Genap",
-            "minggu_bebas": "Seragam Minggu Ganjil"
-        },
-        "Rabu": "Seragam Hari Rabu",
-        "Kamis": {
-            "minggu_seragam": "Seragam Minggu Genap",
-            "minggu_bebas": "Seragam Minggu Ganjil"
-        },
-        "Jumat": "Seragam Hari Jumat",
-        "Sabtu": "Seragam Hari Sabtu"
+    "Rabu": "Pramuka",
+    "Kamis": {
+      "minggu_seragam": "Putih Abu",
+      "minggu_bebas": "Pangsi"
     },
-    "jadwal": {
-        "Senin": ["Mapel 1", "Mapel 2"],
-        "Selasa": ["Mapel 1", "Mapel 2"],
-        "Rabu": ["Mapel 1", "Mapel 2"],
-        "Kamis": ["Mapel 1", "Mapel 2"],
-        "Jumat": ["Mapel 1", "Mapel 2"],
-        "Sabtu": ["Mapel 1", "Mapel 2"]
-    },
-    "piket": {
-        "Senin": ["Nama 1", "Nama 2"],
-        "Selasa": ["Nama 1", "Nama 2"],
-        "Rabu": ["Nama 1", "Nama 2"],
-        "Kamis": ["Nama 1", "Nama 2"],
-        "Jumat": ["Nama 1", "Nama 2"],
-        "Sabtu": ["Nama 1", "Nama 2"]
-    },
-    "tugas": []
+    "Jumat": "Baju Koko & Celana Abu",
+    "Sabtu": "Putih Abu Lengkap (Topi, Dasi)"
+  },
+  "jadwal": {
+    "Senin": [
+      "KJD & SISKOM",
+      "MTK",
+      "JARINGAN DASAR"
+    ],
+    "Selasa": [
+      "IPAS",
+      "ANIMASI",
+      "SEJARAH",
+      "PENJAS"
+    ],
+    "Rabu": [
+      "PP",
+      "SUNDA",
+      "ANIMASI",
+      "IPAS"
+    ],
+    "Kamis": [
+      "Informatika",
+      "KJD & SISKOM",
+      "JARINGAN DASAR",
+      "INGGRIS"
+    ],
+    "Jumat": [
+      "SBK",
+      "INGGRIS",
+      "KJD & SISKOM"
+    ],
+    "Sabtu": [
+      "AGAMA",
+      "INDONESIA",
+      "UPACARA"
+    ]
+  },
+  "piket": {
+    "Senin": [
+      "adalah pokoknya"
+    ],
+    "Selasa": [
+      "adalah pokoknya"
+    ],
+    "Rabu": [
+      "adalah pokoknya"
+    ],
+    "Kamis": [
+      "adalah pokoknya"
+    ],
+    "Jumat": [
+      "adalah pokoknya"
+    ],
+    "Sabtu": [
+      "adalah pokoknya"
+    ]
+  },
+  "tugas": []
 }
