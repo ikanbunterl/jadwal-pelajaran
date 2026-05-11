@@ -1,95 +1,42 @@
 {
   "config": {
-    "group_id": "JQhpAAr7VbP783synfnW7Z",
-    "group_name": "Grup Kelas",
-    "bot_name": "Bot Kelas Automation v3"
+    "group_id": "ISI_DENGAN_GROUP_ID_KAMU",
+    "group_name": "Nama Grup",
+    "bot_name": "Bot Kelas (bisa diganti)"
   },
   "app_settings": {
     "auto_cleanup_expired_tasks": true,
     "preview_before_send": true,
     "backup_on_startup": true,
-    "schedule_check_interval_minutes": 60,
     "whatsapp_launch_wait_seconds": 4,
     "group_open_wait_seconds": 5,
     "paste_wait_seconds": 0.5
   },
-  "libur_nasional": [
-    "2026-03-29",
-    "2026-04-18",
-    "2026-05-01"
-  ],
-  "libur_sekolah": [
-    "2026-03-17",
-    "2026-06-15"
-  ],
+  "libur_nasional": ["2026-05-01"],
+  "libur_sekolah": [],
   "seragam": {
     "Senin": "Putih Abu",
-    "Selasa": {
-      "minggu_seragam": "Batik Sekolah",
-      "minggu_bebas": "Batik Bebas & Bawahan Hitam"
-    },
+    "Selasa": "Batik",
     "Rabu": "Pramuka",
-    "Kamis": {
-      "minggu_seragam": "Putih Abu",
-      "minggu_bebas": "Pangsi"
-    },
-    "Jumat": "Baju Koko & Celana Abu",
-    "Sabtu": "Putih Abu Lengkap (Topi, Dasi)"
+    "Kamis": "Putih Abu",
+    "Jumat": "Baju Koko",
+    "Sabtu": "Seragam Lengkap"
   },
   "jadwal": {
-    "Senin": [
-      "KJD & SISKOM",
-      "MTK",
-      "JARINGAN DASAR"
-    ],
-    "Selasa": [
-      "IPAS",
-      "ANIMASI",
-      "SEJARAH",
-      "PENJAS"
-    ],
-    "Rabu": [
-      "PP",
-      "SUNDA",
-      "ANIMASI",
-      "IPAS"
-    ],
-    "Kamis": [
-      "Informatika",
-      "KJD & SISKOM",
-      "JARINGAN DASAR",
-      "INGGRIS"
-    ],
-    "Jumat": [
-      "SBK",
-      "INGGRIS",
-      "KJD & SISKOM"
-    ],
-    "Sabtu": [
-      "AGAMA",
-      "INDONESIA",
-      "UPACARA"
-    ]
+    "Senin": ["Mata Pelajaran 1", "Mata Pelajaran 2"],
+    "Selasa": ["Mata Pelajaran 1"],
+    "Rabu": ["Mata Pelajaran 1"],
+    "Kamis": ["Mata Pelajaran 1"],
+    "Jumat": ["Mata Pelajaran 1"],
+    "Sabtu": ["Mata Pelajaran 1"]
   },
   "piket": {
-    "Senin": [
-      "adalah pokoknya"
-    ],
-    "Selasa": [
-      "adalah pokoknya"
-    ],
-    "Rabu": [
-      "adalah pokoknya"
-    ],
-    "Kamis": [
-      "adalah pokoknya"
-    ],
-    "Jumat": [
-      "adalah pokoknya"
-    ],
-    "Sabtu": [
-      "adalah pokoknya"
-    ]
+    "Senin": ["Nama siswa 1", "Nama siswa 2"],
+    "Selasa": ["..."],
+    "Rabu": ["..."],
+    "Kamis": ["..."],
+    "Jumat": ["..."],
+    "Sabtu": ["..."]
   },
   "tugas": []
 }
